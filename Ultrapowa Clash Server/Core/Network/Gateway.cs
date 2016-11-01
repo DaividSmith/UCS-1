@@ -111,7 +111,7 @@ namespace UCS.Core.Network
 
         void BeginReceive()
         {
-            Socket.BeginReceive(_buffer, 0, 1024, SocketFlags.None, OnReceive, this);
+            Socket.BeginReceive(_buffer, 0, 4096, SocketFlags.None, OnReceive, this);
         }
 
         void OnReceive(IAsyncResult result)
