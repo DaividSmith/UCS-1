@@ -29,7 +29,7 @@ namespace UCS.Logic
         public Data Data;
         public int Value;
 
-        public void Decode(BinaryReader br)
+        public void Decode(PacketReader br)
         {
             Data = br.ReadDataReference();
             Value = br.ReadInt32WithEndian();
@@ -70,7 +70,7 @@ namespace UCS.Logic
         public int Value;
         public int Value1;
 
-        public void Decode(BinaryReader br)
+        public void Decode(PacketReader br)
         {
             Data = br.ReadDataReference();
             Value = br.ReadInt32WithEndian();
