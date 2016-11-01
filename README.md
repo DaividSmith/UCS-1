@@ -36,7 +36,7 @@ To connect it with the game, you need the custom APK which you can download it f
 #Community helpers
 
 * Metrog (Admin)
-* Chief (Super Moderator)
+* Chief (Main Moderator)
 
 #Ideas
 
