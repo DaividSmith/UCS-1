@@ -369,7 +369,7 @@ namespace UCS.Core
                     }
                      context.SaveChanges();
                 }
-                Logger.Write("All Players in memory has been saved to database at ");
+                Logger.Write("All Players in memory has been saved to Database");
             }
             catch (Exception ex)
             {
@@ -422,7 +422,7 @@ namespace UCS.Core
                     }
                     context.SaveChanges();
                 }
-                Logger.Write("All Alliances in memory has been saved to database at ");
+                Logger.Write("All Alliances in memory has been saved to Database");
             }
             catch (Exception ex)
             {
