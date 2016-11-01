@@ -52,6 +52,7 @@ namespace UCS.Core.Threading
                 ResetColor();
                 WriteLine("[UCS]    -> This program is made by the Ultrapowa Network development team.");
                 WriteLine("[UCS]    -> You can find the source at www.ultrapowa.com");
+                WriteLine("[UCS]    -> UCS is proudly licensed under GPLv3.0");
                 WriteLine("[UCS]    -> Don't forget to visit www.ultrapowa.com daily for updates!");
                 VersionChecker.VersionMain();
                 WriteLine("");
