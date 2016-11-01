@@ -65,6 +65,7 @@ namespace UCS.Core.Threading
                         sw.WriteLine("echo off");
                         sw.WriteLine("echo.");
                         sw.WriteLine("taskkill /f /im ucs.exe");
+                        sw.WriteLine("timeout /t 2");
                         sw.WriteLine("start ucs.exe");
                         sw.WriteLine("exit");  
 
