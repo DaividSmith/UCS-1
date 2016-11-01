@@ -40,7 +40,7 @@ namespace UCS.PacketProcessing.Messages.Client
                 /*
                 Console.WriteLine("Unknown1: " + unknown);
                 Console.WriteLine("Unknown2: " + unknown2);
-                Console.WriteLine("Alliance ID: " + unknown3);
+                Console.WriteLine("Player ID: " + unknown3);
                 Console.WriteLine("Unknown4: " + unknown4);
                 */
             }
