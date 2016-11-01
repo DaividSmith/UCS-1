@@ -28,7 +28,7 @@ namespace UCS.Logic
             Count = count;
         }
 
-        public void Decode(BinaryReader br)
+        public void Decode(PacketReader br)
         {
             UnitData = (CombatItemData) br.ReadDataReference();
             Level = br.ReadInt32WithEndian();
