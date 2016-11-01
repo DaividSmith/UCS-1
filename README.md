@@ -1,38 +1,65 @@
-# Readme!
-##### This repository contains the Development build of Ultrapowa Clash Server, a C# server emulator for the game Clash of Clans. 
-##### Keep in mind that this is the version written by the official development team containing:
+#Ultrapowa Clash Server
+
+An awesome, irresistible Clash Of Clans server that has a huge and awesome community background just to rock and roll the base. It is production ready and you can create your own private server like others have. Come and join our community!
+
+#Websites
+
+* [Ultrapowa - Home Page](http://ultrapowa.com/)
+* [Ultrapowa - Forum](http://ultrapowa.com/forum)
+
+#Download
+
+Go to the release section and download the compiled UCS there in accordance to the latest release. It's fast and simple if you want to plug and play without any customization.
+
+**OR**
+
+You can download the source code, edit it and compile it. And please, if you have made any perfomance change or bought any new features to life, then please make a pull request with your awesome work.
+
+To connect it with the game, you need the custom APK which you can download it from the given link below :
+
+* [Clash of Clans - Patched APK - v8.322.16](http://www.mediafire.com/download/b05ggfh57pbg068/Clash+of+Clans+8.332.16+Patched.apk)
+
+#Our developers
 
 * Ultrapowa									
-* ADeltaX								
-* thecheater887
-* iswuerfel
-* Lasertrap
-
-##### These persons are helping with the development of UCS.
-
-* PatrikCoC
-* Clash of Lights
+* ADeltaX		
 * CrayCray
+* Clash of Lights
+* DominikMC						
+* thecheater887
+
+#Our helpers
+
+* Chief
+* PatrikCoC
 * KnightKing
 
-# Developer needed
+#Ideas
 
-Ultrapowa is highly need of developers. If you are willing to join, contact [Ultrapowa Forum](http://ultrapowa.com/forum)
+We are making an awesome Dashboard for UCS which is web based where you can manage your players, get the status of the server and do a lot more. You can manage the server from any place even if you don't have a computer. Pretty awesome, isn't it?
 
-##### UCS is NOT affiliated with Supercell, or any other company.
-##### Libsodium  requires Visual C++ Redistributable for Visual Studio 2015 to be installed on your computer. If its not installed Sodium.SodiumCore will throw a DllNotFoundException. [***Download Here***](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
-# Download
+#Developers needed
 
-* Download Apk to connect to your Server: 
-* http://www.mediafire.com/download/b05ggfh57pbg068/Clash+of+Clans+8.332.16+Patched.apk
+We need to keep UCS up and we are the only Private server development community and we need you to be a part of it. UCS is fully coded on C#.NET and we want you to join us if you know the language.
 
-# License
-Ultrapowa Clash Server is a free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Contact us at: [Ultrapowa Forum](http://ultrapowa.com/forum/)
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+#License
+
+UCS is proudly licensed under GPLv3.0
+
+```
+Ultrapowa Clash Server is a free software: 
+you can redistribute it and/or modify it 
+under the terms of the GNU General Public 
+License as published by the Free Software 
+Foundation, either version 3 of the License
+, or (at your option) any later version.
+
+This program is distributed in the hope that
+it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+PURPOSE. See the GNU General Public License
+for more details.
+```
