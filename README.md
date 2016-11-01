@@ -30,9 +30,13 @@ To connect it with the game, you need the custom APK which you can download it f
 
 #Our helpers
 
-* Chief
 * PatrikCoC
 * KnightKing
+
+#Community helpers
+
+* Metrog (Admin)
+* Chief (Moderator)
 
 #Ideas
 
