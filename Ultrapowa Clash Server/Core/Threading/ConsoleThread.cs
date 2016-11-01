@@ -69,14 +69,7 @@ namespace UCS.Core.Threading
                         sw.WriteLine("start ucs.exe");
                         sw.WriteLine("exit");  
 
-                    }
-
-                if (!File.Exists("Logs/log.txt"))
-                    using (StreamWriter sw = new StreamWriter("Logs/log.txt"))
-                    {
-                        sw.WriteLine("Log file created at " + DateTime.Now);
-                    }
-
+                    }         
                 MemoryThread.Start();
                 NetworkThread.Start();
                 while ((Command = ReadLine()) != null)
