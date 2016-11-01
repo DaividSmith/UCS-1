@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
@@ -13,7 +13,8 @@ namespace UCS.Core
     internal class Logger
     {
         static int getlevel = ToInt32(ConfigurationManager.AppSettings["LogLevel"]);
-        static string path = "Logs/log.txt";
+        static string timestamp = Convert.ToString(DateTime.Today).Remove(10);
+        static string path = "Logs/log_" + timestamp + "_.txt";
 
         public static void Write(string text)
         {
@@ -35,6 +36,13 @@ namespace UCS.Core
 
         public void Start()
         {
+            if (!File.Exists("Logs/log_" + timestamp + "_.txt"))
+                using (StreamWriter sw = new StreamWriter("Logs/log_" + timestamp + "_.txt"))
+                {
+                    sw.WriteLine("Log file created at " + DateTime.Now);
+                    sw.WriteLine();
+                }
+
             if (getlevel > 1)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
