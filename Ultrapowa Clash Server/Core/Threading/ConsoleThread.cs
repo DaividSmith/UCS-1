@@ -31,7 +31,7 @@ namespace UCS.Core.Threading
         {
             T = new Thread(() =>
             {
-                Title = "Ultrapowa Clash Server v0.7.1.0 - © 2016";
+                Title = "Ultrapowa Clash Server v0.7.2.0 - © 2016";
                 foreach (char t in Title)
                 {
                     Ta += t;
