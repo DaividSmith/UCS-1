@@ -34,9 +34,9 @@ namespace UCS.PacketProcessing.Messages.Client
             level.Tick();
 
             var alliance = ObjectManager.GetAlliance(level.GetPlayerAvatar().GetAllianceId());
-            PacketManager.ProcessOutgoingPacket(new OwnHomeDataMessage(Client, level));
+            PacketManager.ProcessOutgoingPacket(new OwnHomeDataMessage(level.GetClient(), level));
             if (alliance != null)
-                PacketManager.ProcessOutgoingPacket(new AllianceStreamMessage(Client, alliance));
+                PacketManager.ProcessOutgoingPacket(new AllianceStreamMessage(level.GetClient(), alliance));
         }
     }
 }
