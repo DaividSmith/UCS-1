@@ -13,7 +13,7 @@ namespace UCS.Core
     internal class Logger
     {
         static int getlevel = ToInt32(ConfigurationManager.AppSettings["LogLevel"]);
-        static string timestamp = Convert.ToString(DateTime.Today).Remove(10);
+        static string timestamp = Convert.ToString(DateTime.Today).Remove(10).Replace(".", "-").Replace("/", "-");
         static string path = "Logs/log_" + timestamp + "_.txt";
 
         public static void Write(string text)
